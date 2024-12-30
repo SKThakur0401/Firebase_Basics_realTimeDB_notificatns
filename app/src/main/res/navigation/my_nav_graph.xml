@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/dataEntryFragment">
+
+    <fragment
+        android:id="@+id/dataEntryFragment"
+        android:name="com.example.attempttwoforfirebase.ui.views.DataEntryFragment"
+        android:label="fragment_data_entry"
+        tools:layout="@layout/fragment_data_entry" >
+        <action
+            android:id="@+id/action_dataEntryFragment_to_dataDisplayFragment"
+            app:destination="@id/dataDisplayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dataDisplayFragment"
+        android:name="com.example.attempttwoforfirebase.ui.views.DataDisplayFragment"
+        android:label="fragment_data_display"
+        tools:layout="@layout/fragment_data_display" >
+        <action
+            android:id="@+id/action_dataDisplayFragment_to_dataEntryFragment"
+            app:destination="@id/dataEntryFragment" />
+    </fragment>
+</navigation>

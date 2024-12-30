@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AttemptTwoForFirebase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="contact_list">Contact List</string>
+    <string name="send_data_to_db">Send Data to DB</string>
+    <string name="go_to_contact_listing_page">Go to Contact listing page</string>
+</resources>
